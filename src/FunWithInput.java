@@ -9,19 +9,18 @@ public class FunWithInput {
 
         Scanner scan = new Scanner(System.in);
         long punch = scan.nextLong();
-        long length = String.valueOf(punch).length();
 
         String numberAsString = Long.toString(punch);
+        System.out.println(numberAsString);
 
-        for (int i = 0; i < length; i++) { //need to work and think on that
-            int anotherDigitInPunch = numberAsString.charAt(i);
+        int lengthOfPunch = numberAsString.length();
+        System.out.println(lengthOfPunch);
 
-            if (i < 4)
-                System.out.print("0");
-            else
-                System.out.print("1");
+        if (numberAsString.charAt(0) < 5)
+            System.out.println("0");
+        else
+            System.out.println("1");
 
-        }
 
     }
 
