@@ -30,3 +30,29 @@ public class FunWithInput {
     }
 
 }
+
+
+/*
+
+class Adrian
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hit the numpad with your fist. I'll show you a trick! But be careful!"
+                + " I want to see digits only!");
+
+        Scanner scanner = new Scanner(System.in);
+        String digits = scanner.nextLine();
+
+        //najważniejsze
+        for (int i = 0; i < digits.length(); ++i)
+        {
+            if (Character.getNumericValue(digits.charAt(i)) < 5)
+                System.out.print("0");
+            else
+                System.out.print("1");
+        }
+    }
+}
+
+ */
