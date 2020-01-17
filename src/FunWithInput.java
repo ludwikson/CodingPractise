@@ -6,21 +6,26 @@ public class FunWithInput {
 
         System.out.println("Hit the numpad with your fist. I'll show you a trick! But be careful!" +
                 " I want to see digits only!");
-
+        //scanning next line and initiating input as var punch
         Scanner scan = new Scanner(System.in);
         long punch = scan.nextLong();
 
-        String numberAsString = Long.toString(punch);
-        System.out.println(numberAsString);
+        //changing type of variable from long to String
+        //it's necessary to count length of String
+        String punchAsString = Long.toString(punch);
 
-        int lengthOfPunch = numberAsString.length();
-        System.out.println(lengthOfPunch);
+        //counting number of digits in input
+        int lengthOfPunch = punchAsString.length();
 
-        if (numberAsString.charAt(0) < 5)
-            System.out.println("0");
-        else
-            System.out.println("1");
-
+        //loop to check each of digits
+        //checking and returning every one depending on the if statement
+        //comparision to 53 is because of ASCII and decimal system
+        for (int i = 0; i < lengthOfPunch; i++) {
+            if (punchAsString.charAt(i) < 53)
+                System.out.print("0");
+            else
+                System.out.print("1");
+        }
 
     }
 
