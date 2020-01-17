@@ -21,7 +21,7 @@ public class WhoIsBetter {
         }
         else {
             System.out.println("Cosik żeś mie tu popsuł, kolego szanowny." +
-                    " Ale pamiętaj, że Miłosz Ludwikowski jest najwspanialszy na świecie. We wszystko!");
+                    " Ale pamiętaj, że Miłosz Ludwikowski jest najlepszym graczem Minkraft na świecie!");
         }
     }
 }
