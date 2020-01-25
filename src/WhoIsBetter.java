@@ -4,6 +4,7 @@ public class WhoIsBetter {
 
     public static void main(String[] args) {
 
+
         System.out.println("Gracze z imieniem na literę M, są znacznie lepsi w Minkrafta od reszty.");
 
         Scanner scan = new Scanner(System.in);
