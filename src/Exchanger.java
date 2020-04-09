@@ -8,17 +8,17 @@ public class Exchanger {
         Scanner scan = new Scanner(System.in);
         String machineOutput = scan.nextLine();
 
-        int machineOutputLenght = machineOutput.length();
+        System.out.println(machineOutput);
 
-        for (int i = 0; i < machineOutputLenght; i++) {
-            if (machineOutput.charAt(i) == 53)
-                System.out.print("s");
-
+        for (int i = 0; i < machineOutput.length(); i++) {
             if (machineOutput.charAt(i) == 48)
                 System.out.print("o");
 
             if (machineOutput.charAt(i) == 49)
                 System.out.print("i");
+
+            if (machineOutput.charAt(i) == 53)
+                System.out.print("s");
 
             else
                 System.out.print(machineOutput.charAt(i));
