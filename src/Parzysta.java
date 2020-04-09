@@ -8,10 +8,11 @@ public class Parzysta {
         return scan.nextInt();
     }
 
-    public static void print(int x)
-    {
+    public static void print(int x) {
+
         System.out.println(x % 2 == 0 ? "PARZYSTA" : "NIEPARZYSTA");
     }
+
     public static void main(String [] args)
     {
         int a = getInput("Napisz liczbę całkowitą.");
