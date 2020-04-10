@@ -19,9 +19,8 @@ public class FunWithInput {
 
         //loop to check each of digits
         //checking and returning every one depending on the if statement
-        //comparision to 53 is because of ASCII and decimal system
         for (int i = 0; i < lengthOfPunch; i++) {
-            if (punchAsString.charAt(i) < 53)
+            if (punchAsString.charAt(i) < '5')
                 System.out.print("0");
             else
                 System.out.print("1");
