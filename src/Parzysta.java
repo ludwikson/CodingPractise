@@ -24,7 +24,6 @@ public class Parzysta {
 //   public static void main(String[] args) {
 //
 //        System.out.println("Napisz liczbę całkowitą.");
-//        
 //        Scanner scan = new Scanner(System.in);
 //        int a = scan.nextInt();
 
