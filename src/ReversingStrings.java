@@ -7,6 +7,7 @@ public class ReversingStrings {
 
        Scanner anything = new Scanner(System.in);
        String first = anything.nextLine();
+       
        StringBuilder second = new StringBuilder();
        second.append(first);
        second = second.reverse();
